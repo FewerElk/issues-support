@@ -1,0 +1,31 @@
+[17:57:27] [Server thread/WARN]: Unexpected exception while parsing 
+console command "bw"
+org.bukkit.command.CommandException: Cannot execute command 'bw' in 
+plugin BedWars v0.2.27.1 - plugin is disabled.
+     at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) 
+~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+     at 
+org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) 
+~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+     at 
+org.bukkit.craftbukkit.v1_19_R2.CraftServer.dispatchCommand(CraftServer.java:911) 
+~[paper-1.19.3.jar:git-Paper-448]
+     at 
+org.bukkit.craftbukkit.v1_19_R2.CraftServer.dispatchServerCommand(CraftServer.java:874) 
+~[paper-1.19.3.jar:git-Paper-448]
+     at 
+net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:501) 
+~[paper-1.19.3.jar:git-Paper-448]
+     at 
+net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:448) 
+~[paper-1.19.3.jar:git-Paper-448]
+     at 
+net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1397) 
+~[paper-1.19.3.jar:git-Paper-448]
+     at 
+net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1173) 
+~[paper-1.19.3.jar:git-Paper-448]
+     at 
+net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) 
+~[paper-1.19.3.jar:git-Paper-448]
+     at java.lang.Thread.run(Thread.java:833) ~[?:?]
